@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: rgb(27, 27, 27);
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   flex-wrap:wrap;
+ }
+ .card{
+   background:#F8F8FF;
+   width: 300px;
+   margin: 10px;
+   border-radius: 15px;
+}
+.card-image{
+  height: 260px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.car-1{
+  background-image: url('https://www.homestratosphere.com/wp-content/uploads/2020/05/Pink-Shrimps-2-2-4-min.jpg');
+}
+.car-2{
+  background-image: url('https://www.homestratosphere.com/wp-content/uploads/2020/05/Brown-Shrimps-3-2-4-min.jpg');
+}
+.car-3{
+  background-image: url('https://www.homestratosphere.com/wp-content/uploads/2020/05/White-Shrimps-4-2-4-min.jpg');
+}
+.car-4{
+  background-image:url('https://www.homestratosphere.com/wp-content/uploads/2020/05/Rock-Shrimps-5-2-4-min.jpg');
+}
+.car-5{
+  background-image: url('https://www.homestratosphere.com/wp-content/uploads/2020/05/Tiger-Shrimps-6-2-4-min.jpg');
+}
+.car-6{
+  background-image: url('https://www.homestratosphere.com/wp-content/uploads/2020/05/Spot-Shrimps-7-2-4-min.jpg');
+}
+.car-7{
+  background-image: url('https://www.homestratosphere.com/wp-content/uploads/2020/05/Bumblebee-Shrimps-8-2-4-min.jpg');
+}
+.car-8{
+  background-image: url('https://www.homestratosphere.com/wp-content/uploads/2020/05/Red-Cherry-Shrimps-9-2-4-min.jpg');
+}
+.car-9{
+  background-image: url('https://www.homestratosphere.com/wp-content/uploads/2020/05/Blue-Tiger-Shrimps-10-2-4-min.jpg');
+}
+.car-10{
+  background-image: url('https://www.homestratosphere.com/wp-content/uploads/2020/05/Blue-bolt-Shrimps-11-2-4-min.jpg');
+}
+.car-11{
+  background-image: url('https://www.homestratosphere.com/wp-content/uploads/2020/05/Snowball-Shrimps-12-2-4-min.jpg');
+}
+.car-12{
+  background-image: url('https://www.homestratosphere.com/wp-content/uploads/2020/05/Crystal-Shrimps-13-2-4-min.jpg');
+}
+.car-13{
+  background-image: url('https://www.homestratosphere.com/wp-content/uploads/2020/05/Ghost-Shrimps-14-2-4-min.jpg');
+}
+.car-14{
+  background-image:url('https://www.homestratosphere.com/wp-content/uploads/2020/05/Caridina-Babulti-Shrimps-15-2-4-min.jpg');
+}
+.car-15{
+  background-image: url('https://www.homestratosphere.com/wp-content/uploads/2020/05/Panda-Shrimps-16-2-4-min.jpg');
+}
+.car-16{
+  background-image: url('https://www.homestratosphere.com/wp-content/uploads/2020/05/Amano-Shrimps-17-2-4-min.jpg');
+}
+.car-17{
+  background-image: url('https://www.homestratosphere.com/wp-content/uploads/2020/05/Cardinal-Shrimps-18-2-4-min.jpg');
+}
+.card h2{
+  padding: 10px;
+}
+.card p{
+  padding: 10px;
+}
+.card a{
+  background-color: #000000;
+  color: #FFFAFA;
+  padding: 15px 20px;
+  display:block;
+  text-align: center;
+  text-decoration: none;
+}
+.card:hover{
+  background-color: #b3ffb3;
+  color: black;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.9s ease;
+}
+ h1{
+   background-color:#F7DC6F;
+   padding: 15px 0;
+   text-align: center;
+   margin: 5px 5px;
+   border: 2px solid black;
+   border-radius: 25px;
+ }
+ h1:hover{
+   background-color: #87CEEB;
+   cursor: pointer;
+   transform: scale(1);
+   transition: all 0.5s ease;
+ }
